@@ -11,8 +11,8 @@ pbot = Client(
     api_hash="abcd1234",
     phone_number="+94xxxxxxxx"
 )
-owner=
-max_price=500
+owner=1884885842 # replace with ur telegram id
+max_price=500 
 max_available_amount=15000
 
 async def check_star_gifts():
@@ -39,3 +39,4 @@ if __name__ == "__main__":
         idle()
     except Exception as e:
         print(str(e))
+
